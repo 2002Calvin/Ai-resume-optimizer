@@ -6,7 +6,7 @@ def optimize_resume(text, api_key):
     prompt = get_resume_prompt(text)
 
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
         messages=[
             {"role": "system", "content": "You are a helpful AI resume editor."},
             {"role": "user", "content": prompt}
