@@ -4,7 +4,7 @@ from optimizer import optimize_resume
 import os
 
 
-API_KEY = os.environ.get('API_KEY')  
+API_KEY = os.environ.get('API_KEY')  #here the teacher mr Nguh will have to put his own api key since i cannot share mine
 
 def run_optimizer():
     resume = input_text.get("1.0", tk.END).strip()
